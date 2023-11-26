@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class NumGame {
 	public static void main(String arg[]) {
-		Scanner sc = new Scanner(System.in);
+		Scanner in = new Scanner(System.in);
 		Random rand = new Random();
 		
 		//Generating a random integer between 1 and 100.
@@ -17,7 +17,7 @@ public class NumGame {
 		for (i = 0; i < n; i++) {
 			
 			System.out.printf("%d trials left: ", (n-i));
-			int guess = sc.nextInt();
+			int guess = in.nextInt();
 			
 			//if the guess is correct.
 			if (number == guess) {
