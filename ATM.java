@@ -47,7 +47,7 @@ public class ATM {
             System.out.println("Insufficient funds.");
         } else {
             account.withdraw(amount);
-            System.out.println("Successfully withdrawn ₹" + amount + ".");
+            System.out.println("Successfully withdrawn Rs. " + amount + ".");
         }
     }
 
@@ -55,11 +55,11 @@ public class ATM {
         System.out.print("\nPlease enter the amount you want to deposit: ");
         double amount = scanner.nextDouble();
         account.deposit(amount);
-        System.out.println("Successfully deposited ₹" + amount + ".");
+        System.out.println("Successfully deposited Rs. " + amount + ".");
     }
 
     private void checkBalance() {
-        System.out.println("\nYour current balance is: ₹" + account.getBalance());
+        System.out.println("\nYour current balance is: Rs. " + account.getBalance());
     }
 
     public static void main(String[] args) {
