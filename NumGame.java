@@ -12,7 +12,7 @@ public class NumGame {
 		int number = rand.nextInt(100);
 		int i, n = 5;
 		
-		System.out.println("Guess the number between 1 & 100:\n");
+		System.out.println("\nGuess the number between 1 & 100:\n");
 		
 		//Prompts untill n trials.
 		for (i = 0; i < n; i++) {
