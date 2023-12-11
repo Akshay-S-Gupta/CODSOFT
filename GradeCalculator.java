@@ -30,7 +30,7 @@ public class GradeCalculator {
 		int total = 0; 
 		
 		//Number of subjects.
-		System.out.print("Enter No. of Subjects: ");
+		System.out.print("\nEnter No. of Subjects: ");
 		int no_of_subjects = in.nextInt();
 		
 		//Array of marks.
@@ -56,6 +56,6 @@ public class GradeCalculator {
 		
 		//Grade method call.
 		String grade = gradeAllocation((int)average_percentage);
-		System.out.printf("\nTotal marks: %d\nAverage percentage: %.2f\nGrade: %s", total, average_percentage, grade);
+		System.out.printf("\nTotal marks: %d\nAverage percentage: %.2f\nGrade: %s\n", total, average_percentage, grade);
 	}
 }
